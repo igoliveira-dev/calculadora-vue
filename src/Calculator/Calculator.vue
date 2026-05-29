@@ -17,7 +17,7 @@ import { reactive } from 'vue';
 
         switch(operator) {
             case '+':
-                return field1 + field2
+                return parseFloat(field1) + parseFloat(field2)
             case '-':
                 return field1 - field2
             case 'x':
